@@ -1,0 +1,2284 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     89136,       2276]
+NotebookOptionsPosition[     81679,       2017]
+NotebookOutlinePosition[     82036,       2033]
+CellTagsIndexPosition[     81993,       2030]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Numbers in Mathematica", "Title",
+ CellChangeTimes->{{3.698474895291367*^9, 3.698474907014979*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Exact and Approximate Numbers : Three Levels of Precision", "Chapter",
+ CellChangeTimes->{{3.698474801971632*^9, 3.6984748019732428`*^9}, 
+   3.6984748591212883`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1: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
+6OFuzTMVS9s99HaQB/qVZaegJk1DWZOMYyuzvu1Ztrhd7epnqJ9fov74B7Xz
+HdREkNn9Lj37Nr9Mre9ev7obmafZy3vmHPcrNe+asItiVVVVRoBf8aqeVd+2
+p9Z1p3a8Qx39H3V6AHVpOHVlJHV1FCLIXBpBhQyhTvenTnxO7fuQ+vmV+pVd
+Hs9vm7rojbTzu8n4IxT9NjnKmmQf93v8/ZvVyztS61+kdr5LBfSlzg6kLqMm
+Qg4Z5c4Npk71o459Ru3tTW3oUe/XuXhum8QFbzzOuo+aGI6yJtFze+b7OtZ8
+14na2IPa/U/q+GdU8CDq8gjqKmoi2LA1OUlq8im1uxe1/qW67zoVfON0f82X
+JZnmWBPyZqqrqzOjLqQufqNyaUey+qN2v0+P2GcGUGcG0jk7iP5f4jlkFYkI
+LmQ+svPuFJOjn1J7P6B+6Vnn1zVnpn3S7y5FmSnssVRTL4lmDVuTlJDdmUuJ
+/3eiNr9G+X9Ad5yuCdOUs0xZTD67kaZkwJOakJDR+0hfandvavPrtSs6p3vZ
+PzriV4iaGABbk7uHVuYsf6NmRWfq1zfoTSqyYcXW5CxbE6xKBJoBaiZAanL4
+E2pXL+rn12qXdXrgYZ962I/MffOpCdHsysrK1EMrMrwda1c+S219h/qrD3Xk
+EzqHPqYOfkQd+De1/9+U/4f0OhERYsi82/cvat+/6ZAZevC/1P7/UP7/JvO6
+ftWzpXPb3JlqmxS8ywzF23xga3J1Zs+8OU513z9PbXuPbgddk//R/3GAqck+
+1ESw8Wdr8m+1muxjarLlzTq/biW+TvHzXn905zxqogO2JqFz3ij0dapb/QK1
+oxd1+H90TQ6zNfkPaiLsPKnJv2grIB0hQx/5595/ke3l2hVdC30cI31fK0hP
+NnlNiGKxS+Pt7z7P93Gs++F56o+3qT296V03xMd2/pPa9i712z+oX96gNr1O
+9Iz6+VVqIyLA0PPuNXombn6DjNXUH+9QW9+mZ+72f1K//KP+h+5l89tFTbNJ
+PLOTLJPmI95mgrImYbNfL5rrVLfmBfpPp1oT8vfcQmryOmoi7ChrQka8396i
+Z+vvbE3eI0N3/arnH89tGz7ZJo0xHNREA2VNon1fezy/bd2PL9J/N2VNdrA1
+6UltJjV5DTURcFTXJqQmZFVC1+Q9OpveqFv5XLGv09WJNqm3TVwT8uoVFRWh
+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
+6dLwSeLDQ0QrWmzcNk+UNTm/Z83JEeKYqeKHTE0KUBPEl65JIanJLLomD91l
+91wktyaKDw4SrVvk1dJ6E3H9woFBkhvjRfddxY88pLneNgWzbItmM1umJv+z
+IKYKs0DmzaSPTD10k911kZIF8s9BIj/3EWQbzQrH7euB/oeGiG5NEKW4itPV
+amLqOYWYMD72BWxNPG3SZsgSp0luThDvHyD6abG3ddbkZqD/sa9FtyeJUmeI
+MzykeTOZmmBj2brDnOdgnzvTNtPT5sEMWcI0ybVx4h39RNs3rm6hmtTU1JSV
+leXk5MTHx+8dLLk4unXiNPEDN0mml4wsk/nMMgnlttqQBZLel+htm+lhk+Iq
+i3emF8i9/UUbls4iCyQZysiAZg3jtmpN/AdJrowV3XOhd+BkMTWh973PwVaA
+9YauySx6D2cGXRP6vOJLY8TbvhLt/HmNddYk8saF/YMl18eJkqaL09ylWd6K
+mhSjJlacImVN3G3uT5fGTpWcHy3e9Kko4ODeFqoJu0Dm5eUlJiYGLhp6cnjr
+qCmi+66SRx7SHG8b+SzbQmyZWnGK2H2JXjaP3GT3XKTRUyTBo8SbPxWd+Gsv
+2UYjS45VjduKmiwZfHpE65gp4pQZknSmJmQroBBbplYcdg8nqQm7hzNqiuT0
+SPHqj0VHDlpvTQ4MkQaPFMU5MzXxpPdz5mMHjnWnUHUPp4s0YookcLh42b9F
+Vy6eb6Ga1NbWVlRU5OfnJyUlnT+45a8hohvjRfemMztwPGXsMgnlttIw10zl
+0tukslRXabyzJGyS+MjXYrd3RVcvXyKDWHl5ORnQrGHcVq3J2Z/cDw1uHTpR
+pSbslikO41pl2EsLmV03MnbXzc2JYjKQzvzkWbKWt9qanP7R7ejQ1uGTxEnT
+JWluUuV+TtTEOqPYw+llk+4uu+9KX1p4Y7x4/yDR/OG9Wq4mdXV1VVVVRUVF
+KSkpoaGh+wdLz44UxTiLk10lj9yl2U+WSdP/fRAjh5FtWyLbD92k91wkUVPF
+l8aKd/YXrXAdSoavgoICMpSRAa0Zl0azRbUm149u2zdIcn60KH6a+P4Mej8n
+qYmcORUfNbHCsDUhlktW4nddJJFTxOfHiP/4UrRwmlXX5OqRbfsGiy+NESW4
+SBT7Ob1s5DOxn9NKU6g460b2YIY00UUSMUV8drT4189EAbt/b7makAWSvZrv
+4cOHd+7cCVw8+MgQ0a1J4rvTJSlu0nQPGb1MMvveTf73QYwZ9jhpNpFtDxlx
+XSLb4ZPFgSPEa/qIDu3dlpqaWlxcXFlZSZaf5l0gzRONmhxfOIg+c3IyXZNU
+N2mGp4w9koszcKwtypqQjUFSkxhmD2fAMPHy/4gO7rb2mhweZhM4TER8756r
+5AFqYsVhTnKwzWJqkjRdEu0sCZ0oPjRUPO8DUfDJwJarSX19PXvANCsrKzY2
+9uKBX/YNEp8dJY6eKrnnKn3gLstklsl8LJPWFMX+9pm2ZEQiq2+y/XVnivjC
+WPGu/uLJb4nPnzubnp7OnglmJeO2Rk3Ob126b2DrkNFiYn1JrtI01MQqU+TT
+8J0JHrKUGdL4aZLbU8QhY8TbvxItGv7P6OhoK69J8DrXfYNaXxwrjnNR1CTL
+C0dyrS6KTQBvekv5/gxpHKnJZPGZUeLfvxTNGdqrpWtSW1tbVVUll8uTkpJu
+3LgR6PX+voGiy+MkcS6ypBk2aR6yTC9ZLoZuq4mK29g8cJfenS6Jmiq5MVFC
+ZPu7/7Y+tHNLYmJiTk4Ouy/RGs4oYNGoyXHPXgcHi66Nl8S7yJJnyB56MEM3
+amI1UboN2QQgNUmcLomcKrk+XnJgsHjRh6IDO1ATuibHJj/31xDRzYmShCc1
+scllrsmF4VhDlFdLpbNbytMlEVMlV8ZL/AeJ5/QSnT5xtKVrwip3UVFRWlpa
+RETEpf0bjwyTHhkqvjVJljDdJtlNluZhk9mwX7EAR04tOuylUuwlrg/caLeJ
+dpaETZacHCnZ/Dkt2+Hh4SkpKQUFBWQQI7JtPeO2Rk0u7Nv411DpsWGS8Mma
+NcGFVBYf5beTkQ1SMmgTt4lyltyaJDkxQrKhr8hj4PuoCVuTkH0b9g2WBA6X
+REyRJU63ue+mtiGAcx4sO4qaeKnV5OYkScAwydr/tf7t+/lGqAmZJhEn9vsK
+iEpdvXr19M++O/uLTo2U3pliE+9qk+Rmm+YuIxsp2d5EvG3lszF6W2CKmO9c
+Yr/B75EHfd+cuy4KtwkeI9neTzTrfdGp40fi4uIyMzMfP37MnuVuVeO2Rk3O
+/DB5e3/x2dHSiKk2Ca62yUxNMhtqks98GU6xqWcr0rwpUnw1mR1zIgF9TCqR
+Putecmuy5MwoydYvRW7vik4eQ01U1iaL+u/sJw4ZI4t2bqiJR0NNZpGa2NH3
+azD1bEWaMcWM2OQ3fIMfW5MEF3r3ZugkSdBIyZYvRJPfFAUZqyZksuwZ7+wp
+YefPnz81u/f2fuKTI2W3p9rFu9oRw3ngLnvkIc3wUiyWebPsyJJZMMe+wIeu
+PCLQFDJfuCqnj0bRW6NkaXzoTh8hTaT320jDpkiDx8p29JMs+rD1b6sXhYWF
+paam5ufnW9sudxbtmgQ5P0/+OGdGy+44K2qSxtQkU1mT2Xb5c1ATwYetCRn0
+2JpkNNQkgd4gld6aLD0zRvbHV+Jverc+8MfPqIlqTS6dOHhs0nO7BkjOjbGJ
+mmaXMMMu2c2G1CTdk6nJTNTEckJbjXpN0txkya6M2zA1OTlK9tuXYu9eosDD
+B41WE6Vyy+Xye/fu3bx5Mzg4+OTMXn98JQkcZXPb2SHO1f6eu12qhx0R70ee
+snQvWaa3TZa3bfZMJuTjIMJMNtkOJcuhl+0jMmLTB6RkSa7SOBdppLMsbIrs
+3Fgb1m22rJx348aN+Ph4slGm/HpJKxy3NWpyIWBf4JTntvWTnBpte3uaQ/wM
+ZU2kTE1sSE0aOmJr8nmNNDkaNUl1k91jahLhLLs1RXZmjM3WryTEbfx/+wk1
+0a7J5X3rAyY9u6O/5OxY20imJknudg88bNmaZKAmlhL1msjYmsQyNQmdYnNy
+tM2WL8Sze4kCDvobuSbsVxY8fvw4IyMjNjb2+vXrZ86cCfJ+7/evpMdG2t2Y
+4hTr5nTXwynZwyHFw+6BO72DkdT8oScTL5tHiABDZhyZfWlkuHaXpbjJ7rvZ
+JM6wiZ1ue2ea7Y0pdoGjbInfLvmX6He/uVevXo2JiUlLS2Ov4LPCbVIW7Zqc
+P7L3lPNzW7+SBo6yC3V2ilPUxJ6WHNTEIqJRk2SmJjFMTa5Ntjs+0va3LyUL
+Pmy959cfURMW7Zpc9l8XMOm5P/pLT46xvzWNrsk9D6f7DTUhq0JFR1ATwYad
+feo1sSU1uT3N9upku4DhNr9+LvHtLTJVTWpqatjvnExNTY2Kirp8+XJQUNCZ
+mb3+6CfbM8QueIJTxIz2iR7t7nm2TfZsm+LhlEJUx53EPsXdLsXdFhFg7O67
+2yW7299zs0t0c4hzc4xydbw93fHiRMc/v7Zb/6n0mw/Ev/n5Xrx4MTIyMiUl
+RfndklZ1tqQG2jUJObzn7PTnt3wl8x9qf35imyiNmrijJkKPZk0iXR3DXRxD
+JjjuH2L3Y1+pD6nJd6iJGto1ubx/XeAUuiYHhtlfnNwm2g01sbDQNUlyIzWx
+T3RzjJ1B1yTMxTF4vOPewbZr/ieZ1VtyeN8uU9WEvAr7rQW5ublkmSTv4dKl
+S6dOnbq4euK+cc9t6W93eFSbS84dw2d0ivfsfNer0z2vjkl0OiR5tkeEmHtM
+Ej3bx7m3i3ZvF+ba7sLkdgGjnLYOsPv2v9JvR7x7eP9usjTeuXPn/v37ZKkg
+m2PV1dVWu03KwleTc99P/Otr29/62weMbnvFueMdt04Jnp3voSYCD9uRu0xN
+YtmaTG8XMqndkZGOW/rZLv1I+sO0L1ATbfhqcnrlhP1DbLcOtD8xtu3VaR0j
+3DsleNE1SUJNhBxlTRI86JpEubULdWl3bmLbQyMcf/nKdslH0p98xpu2JuRV
+2K+dLC0tJWbFLpNXrlw5TTi4/ejyCbuG2P82yMl/eLugCZ2uTu96y/2ZOx7P
+RHp1i/HuFosIMNFe3aK8ut1273rNpfOpie33DXfa1M9+VV+b5X2kW+ZPPP6n
+P9nkUl0alTsSrXnc1lWTA9sPLh2/fYgDqcn+Ee1PTex0bXq3MA9SE/rvjJoI
+NGxNwt26XpnWOWhC+71fO238yn7lJzbf9pFuX+VDVtmoiTY6anLywPZg1xf+
+GOTw++A2B0a2Pz2p03VX1ETwITUhMhDm1uXytE6B49vtHuq0/kt7v//ZLP9Y
+dnD3NjOpCXvYlD0x7MGDBzExMTdu3AgJCTl58iQZvQP9Jhyc9OK2wW1+HdL+
+j6877Bread+ozn+N7XJ4HCK8/Dm28/7RnXaN6PDLoLZrv3Bc/andL5Pe27Nq
+9vGDe86dO3f9+vXo6GiyNJLRiYxRZKmw8v3tquioCRm9j303Yf+EF38f1GbL
+kPbbvu64GzURctia7BzeYfPANms+d1jzqd2vk947+Ov3qIledNTk/O41R5ZP
+2DP+xd8Gtd0ypANdkxGd9qMmwswhUpMxnfeP6rR9WPtNA9v88LnD2s9st7h/
+fmjPH+ZWE+JUxLrLy8vz8/PT09Pv3r17+/btq1evsovlcYL/1kC/iYfn9jvg
+1nvPhJf/GPvy9qHtEMFl59ftto17eZtL750zv9y/es7RfTuCgoLIokg2ssLD
+wxMSEh4+fMgujexeRAzaquityZltq074TTw0t99+t967J7xM/tomn+NIE7Jz
+WLttZIhjanJw9ZwA1KQx6K3J6W2rjvlN/IvUZMYHu8ejJkINuzbZMf19tibH
+zLUm7JV97DJZWFiYnZ2dnJwcGxtL3iRZLM+fP09fVBUUdOLECbJwHjt27CgQ
+JgEBAWT2kZlIn0N+5gy7KIaFhRHNJnM8MzOTjEhky4uYNgZtbVATKwE1eRpQ
+EytBQDVhj5zW1NRUVlYS3SJvjLy9lJSU+Pj4iIiIW7duXbt27dKlSxcvXjzP
+EAIECJlxFy5cIPORzE0yT8mcJfOXzGWykSWXy0tKSioqKtg7nWHQ5gQ1sQZQ
+k6cENbEGBFcT8jZY8SZvjCyWxL1zcnIePXp0//79u3fvxsXFxcTERDFEAgFC
+ZhyZg2Q+JiYmkuXw4cOHZNuKDD7FxcVkUwtnERgIamLZoCbNAmpi2QixJqx4
+s4slce+ysjKiYQUFBXl5eeTNZ2VlZWRkpAMBQmYc2YYic5DMRzI3yTwlyyGZ
+v2Quk3nNLormtjSaLaiJpYKaNCOoiaUi6JooF0vyPomGkfdMDJwoGXn/pQyP
+gdBgZxyZg+UMZLZWM7AHRs12UTRnUBPLAzVpdlATy8MCasJeos4umSw1DNVA
+sLBzkJ2byuXQ/BdFcwY1sTxQk2YHNbE8LKMm9SrUAYGjOjdNvWRZFKiJJYGa
+tBCoiSWBmgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAlZSUlIULF/bu3fv9xvDBBx+c
+OXPG1O8dAAAAAICDI0eO9OnT56OPPho9evSYMWNGG8DIkSPHjh177do1U793
+AAAAAAAOli1bNmDAgIiIiNzcXLlcnmsAOTk5eXl5lZWVpn7vAAAAAACalJeX
+T5kyZcKECaZ+IwAAAAAAzUNoaOi4ceNWrVpl6jcCAAAAANA8bNq0afz48SdP
+njT1GwEAAAAAaB5cXFxcXV1zcnJM/UYAAAAAAJqB/Pz8L7/8ctGiRVq/Kbt7
+dMP8Qf1pBgwcMnry+gs5+SZ4gwAAAzjp0qpVKxfsggUAAIqqq6sLCQkZNGjQ
+jh071H9TcvfEoqWjP+s/YDLNmKH/6tSq+8dTl5xISKtogfdRmZ50/uCGXwKu
+pVfgQiyLImn9h600aPE1MPuaH65PasZHCgCdemNRnxS0HByFxYIDBEBubm55
+ebnqTyorK5cvX+7u7h4eHq7+2IJbv7qv37j94mP2n+WJWz5+T9qq89cb/nrQ
+Au+s9s7p2f/9u9PgFRG1LTB1YDq4R8uWVRzz0hv2NYywVwV6A56eFtKbZm+B
+0WoFWpa6quLM5FhtYuLu3ssorqut1/P8ioqK5OTko0ePLlmyJCoqSvVXJSUl
+Q4cOXbFiRVFRkc5pVNcl/eb6qmOXPgu3RDb5gxRn3Y8KvckQGhmZWlzNTrow
+LeX6b6tH/1PW7mPn38+E3Lx5OylL3mBhtQVJ0bcVT7qdlJlX1eRXB6ZAaxRi
+VsLWtKI1D70BwCBaaHGF3gAu6qujz68d87aDg6OTk6ODvb2dPfkvR+Y/u/T8
+eEFwaaHOHR7V1dVhYWGzZs3q0qWLVCrdtm1bff0TH0pNTe3du/fWrVv1vYsq
+Kvl3l9ccuny8+LfoJn2MuorHYVt8R33w/As03Z/v+eKgH4/dK6yuo/JDVi78
+qktHB+n//d3Gqctz5AEfzNwZmEw+eW1NVvjpZX1ff+V55lndXx3yzdoLBZV1
+TXoDwCRwjEJWtiMBegMEBPQGGI+alKAlLi/9jWsHf6u/dei3PLSsROfem7t3
+7x47duzUqVPOzs6tW7ceMGBAXFwc+6uKiorDhw+Tnxhw36iymksL+jz7/54Z
+9fOx9MZ/iNrSnKAFY94fOHDWr4cu05w5sHLaBy/1HLxqb2R+tTz57qVNfiP/
+adehz5RNJ05evHgjPj23jKKyrh6d2/cfPf47dkNA4EVC0KbZM+bOXHsG5zcL
+CL1607BSVu4UV32sYlcP7w5y9T3pygdorejVHqf1AppjpNqrav1a+RTViXLL
+GseOfsUDdX1q9Zdv+qdmp6P5d27cp+A8VIF1igWjRxv0LJxcReNvgfYUm2OC
+QCiU3fpl+5o5Phv2/v6Dr8u7b41atPHXg/tXDvvfsC+Hz97+Z8DJ2/cf1+k+
+W0Uulz98+LCmpiYmJubVV1+VyWTKfTW5ubkLFizw9fUlCqT7bdQ+vrpv8Js2
+9r3H/B6a0+jDQ7WVhRd39Hvhv1/+uPfJeTtF6T/369iuz6gtYdn0P6PPL+zX
+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
+JuzC
+    "], {{0, 295}, {757, 0}}, {0, 255},
+    ColorFunction->RGBColor],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  BaseStyle->"ImageGraphics",
+  ImageSize->Magnification[1],
+  ImageSizeRaw->{757, 295},
+  PlotRange->{{0, 757}, {0, 295}}]], "Text",
+ CellChangeTimes->{3.69849647802133*^9}],
+
+Cell["\<\
+Machine-precision numbers are floating-point numbers. Machine-precision \
+numbers consist of 53 bits (corresponding to slightly under 16 decimal \
+digits), and no specific number of those bits are known to be correct. If you \
+use machine\[Hyphen]precision numbers, then Mathematica does not keep track \
+of precision, and there is no way of knowing when your results become \
+meaningless. That is why Machine-Precision is considered less precise than \
+any other explicit precision. 
+
+By contrast, when you use arbitrary\[Hyphen]precision numbers, Mathematica \
+keeps track of the precision in every computation, so you can explicitly see \
+any decrease in precision that is occurring.
+
+Exact numbers are exact, and computations with them are also exact (unless \
+you use a numeric function like e.g. NSolve, or FindRoot).\
+\>", "Text",
+ CellChangeTimes->{{3.698475395623598*^9, 3.698475431443598*^9}, {
+  3.6984759631831017`*^9, 3.698475965586897*^9}, {3.6984839453951902`*^9, 
+  3.698483951807457*^9}, {3.698493778823639*^9, 3.698493792836941*^9}, {
+  3.698493825669907*^9, 3.698494115217729*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Precision and accuracy", "Subchapter",
+ CellChangeTimes->{{3.698474948920937*^9, 3.69847496258189*^9}, {
+  3.698475364788727*^9, 3.698475365867139*^9}, {3.698475509856196*^9, 
+  3.698475513916541*^9}, {3.698476159599864*^9, 3.698476162658697*^9}}],
+
+Cell[TextData[{
+ ButtonBox["Precision",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/Precision"],
+ " gives the effective number of digits of precision, i.e. the number of \
+significant figures known to be correct.\nThus, Precision[x] gives a measure \
+of the relative uncertainty in the value of x. \nNumbers entered in the form \
+digits`p are taken to have precision p.\n\n",
+ ButtonBox["Accuracy",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/Accuracy"],
+ " gives the effective number of digits to the right of the decimal point, \
+i.e. the number of decimal places known to be correct.\nThus, Accuracy[x] \
+gives a measure of the absolute uncertainty in the value of x. \nNumbers \
+entered in the form digits``a are taken to have accuracy a."
+}], "Text",
+ CellChangeTimes->{{3.6984755155137167`*^9, 3.6984755535717907`*^9}, {
+  3.698475594815785*^9, 3.698475595123275*^9}, {3.698475643438026*^9, 
+  3.698475643931999*^9}, {3.698475675635359*^9, 3.698475676028583*^9}, {
+  3.698475751413971*^9, 3.6984757843525467`*^9}, {3.698476171165489*^9, 
+  3.698476193369952*^9}, {3.698476265401929*^9, 3.6984762797559643`*^9}, {
+  3.6984935571519823`*^9, 3.69849356706733*^9}, {3.698493671671256*^9, 
+  3.698493744365673*^9}, {3.698494135991578*^9, 3.698494198742777*^9}}],
+
+Cell[TextData[StyleBox["10 digits of precision, low accuracy:",
+ FontWeight->"Plain"]], "Text",
+ CellChangeTimes->{{3.6984755155137167`*^9, 3.6984755535717907`*^9}, {
+   3.698475594815785*^9, 3.698475595123275*^9}, {3.698475643438026*^9, 
+   3.6984756644304667`*^9}, 3.6984762162734613`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "10000000.000`10"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Precision", "[", "n", "]"}], ",", 
+   RowBox[{"Accuracy", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+  3.6984762326645203`*^9, 3.6984762477377987`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"10.`", ",", "2.9999999999999973`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, 
+   3.698475287286512*^9, {3.698476240840774*^9, 3.698476248577548*^9}, 
+   3.698487356542596*^9, 3.6984955238961687`*^9, 3.69851340298977*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ StyleBox["10 digits of precision, ",
+  FontWeight->"Plain"],
+ StyleBox["high",
+  FontWeight->"Plain"],
+ StyleBox[" accuracy:",
+  FontWeight->"Plain"]
+}], "Text",
+ CellChangeTimes->{{3.6984755155137167`*^9, 3.6984755535717907`*^9}, {
+   3.698475594815785*^9, 3.698475595123275*^9}, {3.698475643438026*^9, 
+   3.6984756644304667`*^9}, 3.6984762162734613`*^9, 3.698476310680564*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "0.0000001`10"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Precision", "[", "n", "]"}], ",", 
+   RowBox[{"Accuracy", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+   3.6984762326645203`*^9, 3.6984762477377987`*^9}, 3.698476318814411*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"10.`", ",", "17.`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, 
+   3.698475287286512*^9, {3.698476240840774*^9, 3.698476248577548*^9}, 
+   3.698476327003109*^9, 3.6984873565747433`*^9, 3.698495523984685*^9, 
+   3.698513403088873*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Built-in operations respect the precision of their inputs", "Subchapter",
+ CellChangeTimes->{{3.698474948920937*^9, 3.69847496258189*^9}, {
+  3.698475364788727*^9, 3.698475365867139*^9}, {3.698475509856196*^9, 
+  3.698475513916541*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Exact input \[LongRightArrow] exact output", "Subsection",
+ CellChangeTimes->{{3.698474985127273*^9, 3.698475009136097*^9}}],
+
+Cell["For exact numbers, Precision[x] is Infinity.", "Text",
+ CellChangeTimes->{{3.6984755155137167`*^9, 3.6984755535717907`*^9}, {
+  3.698475594815785*^9, 3.698475595123275*^9}, {3.698475643438026*^9, 
+  3.6984756644304667`*^9}, {3.698494263018145*^9, 3.6984942634791527`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"Sqrt", "[", "8", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"2", " ", 
+    SqrtBox["2"]}], ",", "\[Infinity]"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, 
+   3.698475287286512*^9, 3.698487356626326*^9, 3.698495524066481*^9, 
+   3.698513403136969*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Arbitrary precision input \[LongRightArrow] arbitrary \
+precision output",
+ FontWeight->"Plain"]], "Subsection",
+ CellChangeTimes->{{3.698474985127273*^9, 3.698475009136097*^9}, 
+   3.698475306592844*^9}],
+
+Cell["\<\
+Numbers entered in the form digits`p are taken to have precision p.\
+\>", "Text",
+ CellChangeTimes->{{3.6984756913850603`*^9, 3.6984756982574263`*^9}, {
+  3.698475865848987*^9, 3.69847590055092*^9}, {3.698494276386147*^9, 
+  3.698494276823056*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "8`50"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.69849430795522*^9, 3.698494309465353*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"8.`50.", ",", "50.`"}], "}"}]], "Output",
+ CellChangeTimes->{3.698494309908125*^9, 3.698495524149452*^9, 
+  3.698513403189541*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"Sqrt", "[", "8`50", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, 
+   3.6984753130765533`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.8284271247461900976033774484193961571393437507538961463533594759814649569\
+2421`50.30102999566398", ",", "50.30102999566398`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475314201449*^9}, 3.6984873566566763`*^9, 
+   3.698494279873672*^9, 3.698494314935001*^9, 3.698495524233864*^9, 
+   3.698513403256221*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Machine precision input \[LongRightArrow] machine \
+precision output",
+ FontWeight->"Plain"]], "Subsection",
+ CellChangeTimes->{{3.698474985127273*^9, 3.698475009136097*^9}, {
+  3.698475306592844*^9, 3.6984753319201393`*^9}}],
+
+Cell["\<\
+Numbers entered in decimal notation are normally interpreted as \
+machine-precision numbers, which have precision MachinePrecision.
+For machine-precision numbers, Precision[x] yields MachinePrecision.
+MachinePrecision is considered smaller than any explicit precision.\
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+  3.6984758357919703`*^9, 3.698475845797044*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "8.0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698494370475482*^9, 3.698494371865457*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"8.`", ",", "MachinePrecision"}], "}"}]], "Output",
+ CellChangeTimes->{3.698494372366602*^9, 3.6984955243167267`*^9, 
+  3.698513403321801*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"Sqrt", "[", "8.0", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+  3.6984753130765533`*^9, 3.698475337229949*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"2.8284271247461903`", ",", "MachinePrecision"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.698487356709486*^9, 
+   3.698494375358337*^9, 3.698495524398842*^9, 3.698513403388668*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Take-home message",
+ FontWeight->"Plain"]], "Subsection",
+ CellChangeTimes->{{3.698474985127273*^9, 3.698475009136097*^9}, {
+  3.698475306592844*^9, 3.6984753319201393`*^9}, {3.698476560513332*^9, 
+  3.698476563335683*^9}}],
+
+Cell["\<\
+Exact inputs give exact results; approximate inputs give approximate results.\
+\
+\>", "Text",
+ CellChangeTimes->{{3.69847647818607*^9, 3.698476491200076*^9}, {
+  3.698476568679635*^9, 3.6984765691408043`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "x_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"Sin", "[", "x", "]"}], "+", "x"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Nest", "[", 
+  RowBox[{"f", ",", "5", ",", "2"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.698476501618651*^9, 3.69847650223693*^9}}],
+
+Cell[BoxData[
+ RowBox[{"5", "+", 
+  RowBox[{"Sin", "[", "5", "]"}], "+", 
+  RowBox[{"Sin", "[", 
+   RowBox[{"5", "+", 
+    RowBox[{"Sin", "[", "5", "]"}]}], "]"}]}]], "Output",
+ CellChangeTimes->{3.698476503404283*^9, 3.69847670106747*^9, 
+  3.698476756473446*^9, 3.698487356759263*^9, 3.698495524481888*^9, 
+  3.6985134034569273`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Nest", "[", 
+  RowBox[{"f", ",", "5.", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.698476512783581*^9, 3.6984765201692867`*^9}}],
+
+Cell[BoxData["3.2580702481082477`"], "Output",
+ CellChangeTimes->{3.69847652071679*^9, 3.698476703351123*^9, 
+  3.698487356809106*^9, 3.6984955245659037`*^9, 3.698513403522661*^9}]
+}, Open  ]],
+
+Cell["\<\
+Computations with floating-point numbers are way much faster than with exact \
+numbers.\
+\>", "Text",
+ CellChangeTimes->{{3.69847647818607*^9, 3.698476491200076*^9}, {
+   3.698476568679635*^9, 3.6984765691408043`*^9}, 3.698476683364532*^9, {
+   3.698487399170905*^9, 3.6984874260006247`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"N", "[", 
+   RowBox[{"Nest", "[", 
+    RowBox[{"f", ",", "5", ",", "25"}], "]"}], "]"}], "//", 
+  "Timing"}]], "Input",
+ CellChangeTimes->{{3.698476709160816*^9, 3.6984767093282223`*^9}, {
+  3.698476750267419*^9, 3.698476750481102*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"19.954264`", ",", "3.1415926535897936`"}], "}"}]], "Output",
+ CellChangeTimes->{3.698476706304613*^9, 3.698476747733226*^9, 
+  3.698476786658536*^9, 3.698487377108842*^9, 3.698495554911374*^9, 
+  3.6985134236357307`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Nest", "[", 
+   RowBox[{"f", ",", "5.", ",", "25"}], "]"}], "//", "Timing"}]], "Input",
+ CellChangeTimes->{{3.698476722120481*^9, 3.698476752438489*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"0.000033`", ",", "3.141592653589793`"}], "}"}]], "Output",
+ CellChangeTimes->{3.698476791934866*^9, 3.698487377197234*^9, 
+  3.698495554996685*^9, 3.698513423712812*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Exact and Approximate Numbers : Combining Precisions", "Subchapter",
+ CellChangeTimes->{{3.698475369892932*^9, 3.6984753775792227`*^9}}],
+
+Cell[TextData[StyleBox["When different precisions are combined, a justifiable \
+output precision is determined:",
+ FontWeight->"Plain"]], "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"8`50", "+", "2`25"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+  3.6984753130765533`*^9, 3.698475337229949*^9}, {3.698476049475884*^9, 
+  3.6984760605667458`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"10.`25.69897000433602", ",", "25.69897000433602`"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.6984760611460133`*^9, 
+   3.698487377223209*^9, 3.6984955550546303`*^9, 3.698513423771899*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Because machine-precision numbers are considered less precise than any \
+other numbers, whenever the input contains machine-precision numbers, the \
+result is normally a machine-precision number.",
+ StyleBox[" In other words, if any part is ",
+  FontWeight->"Plain"],
+ ButtonBox["MachinePrecision",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/MachinePrecision"],
+ StyleBox[", the result will be ",
+  FontWeight->"Plain"],
+ ButtonBox["MachinePrecision",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/MachinePrecision"],
+ StyleBox[" too (which, in effect, means \[OpenCurlyDoubleQuote]This could \
+well be rubbish\[CloseCurlyDoubleQuote]).",
+  FontWeight->"Plain"]
+}], "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, 
+   3.6984760884686527`*^9, {3.698479753026668*^9, 3.6984797649819717`*^9}, {
+   3.69849444871583*^9, 3.698494463055871*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{
+    RowBox[{"Sin", "[", "5`50", "]"}], "+", 
+    SqrtBox["6.5"]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+   3.6984753130765533`*^9, 3.698475337229949*^9}, {3.698476049475884*^9, 
+   3.6984760605667458`*^9}, 3.698476099729951*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1.5905854821332537`", ",", "MachinePrecision"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.6984760611460133`*^9, 
+   3.6984761023034697`*^9, 3.6984873772599792`*^9, 3.698495555105433*^9, 
+   3.698513423838545*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Computing with arbitrary-precision numbers", "Chapter",
+ CellChangeTimes->{{3.698474801971632*^9, 3.6984748019732428`*^9}, 
+   3.6984748591212883`*^9, {3.698479469393241*^9, 3.698479477716937*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Basics", "Subchapter",
+ CellChangeTimes->{{3.698474948920937*^9, 3.69847496258189*^9}, {
+  3.698475364788727*^9, 3.698475365867139*^9}, {3.698475509856196*^9, 
+  3.698475513916541*^9}, {3.698476159599864*^9, 3.698476162658697*^9}, {
+  3.6984794900363693`*^9, 3.698479491351273*^9}, {3.6984862756346283`*^9, 
+  3.6984862776910467`*^9}}],
+
+Cell["\<\
+When you do a computation with arbitrary-precision numbers, Mathematica keeps \
+track of which digits in your result could be affected by unknown digits in \
+your input. It sets the precision of your result so that no affected digits \
+are ever included.This procedure ensures that all digits returned by \
+Mathematica are correct, whatever the values of the unknown digits may be.\
+\>", "Text",
+ CellChangeTimes->{{3.6984877022956448`*^9, 3.69848773316263*^9}, {
+  3.698494475816208*^9, 3.6984944921673813`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"1.11111111111111111111`20", "-", "1.11111111111111111000`20"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698494545167061*^9, 3.6984945880451736`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.1100000000000000000000000000000000000001`1.6985354925619984*^-18", ",", 
+   "1.6985354925619984`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.698494559906584*^9, 3.698494588585731*^9}, 
+   3.698495555156227*^9, 3.6985134239046507`*^9}]
+}, Open  ]],
+
+Cell["\<\
+Thus, when you require results to a specific precision or accuracy, it is \
+usually best to give exact inputs and use N only at the end. \
+\[LineSeparator]This is because N will sometimes temporarily compute at a \
+higher precision than you request in order to obtain a result that satisfies \
+your specification.\
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477515352284*^9, 3.6984775158020353`*^9}, 
+   3.698479677430993*^9, {3.698479809680099*^9, 3.698479809929243*^9}, {
+   3.698480130854713*^9, 3.6984801475149603`*^9}, {3.698494624922752*^9, 
+   3.698494626450622*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"111111111111111111111", "/", 
+       RowBox[{"10", "^", "20"}]}], "-", 
+      RowBox[{"111111111111111111000", "/", 
+       RowBox[{"10", "^", "20"}]}]}], ",", "20"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698494639760325*^9, 3.698494702854787*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.1100000000000000000000000000000000000001`20.*^-18", ",", "20.`"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.698494650713624*^9, {3.6984946913273687`*^9, 3.698494703662887*^9}, 
+   3.698495555226633*^9, 3.6985134239713507`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Another example: get an approximation to ",
+ Cell[BoxData[
+  RowBox[{"1", "-", 
+   SqrtBox[
+    RowBox[{"1", "-", 
+     SuperscriptBox["\[ExponentialE]", 
+      RowBox[{"-", "40"}]]}]]}]],
+  CellChangeTimes->{{3.698479979283078*^9, 3.6984799792847652`*^9}, {
+   3.6984800207081633`*^9, 3.698480031878933*^9}, {3.698495233646552*^9, 
+   3.698495266518319*^9}}],
+ " with 20 digits of precision :"
+}], "Text",
+ CellChangeTimes->{{3.698479963922757*^9, 3.698480005868191*^9}, {
+  3.698483651309767*^9, 3.6984836526813507`*^9}, {3.698494907577943*^9, 
+  3.6984949144629507`*^9}, {3.6984952812561607`*^9, 3.698495284379963*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"1", "-", 
+      SqrtBox[
+       RowBox[{"1", "-", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"-", "40"}]]}]]}], ",", "20"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698479979283078*^9, 3.6984799792847652`*^9}, {
+  3.6984800207081633`*^9, 3.698480031878933*^9}, {3.698495233646552*^9, 
+  3.698495266518319*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.1241771276457944999206816262360979791222`20.*^-18", ",", "20.`"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.69848000801527*^9, 3.698480051587549*^9, 3.6984873773095713`*^9, {
+   3.6984952642344027`*^9, 3.698495267154298*^9}, 3.698495555343157*^9, 
+   3.6985134240386963`*^9}]
+}, Open  ]],
+
+Cell["\<\
+But, in any case, in calculations involving arbitrary-precision approximate \
+numbers, the Wolfram Language tracks the propagation of the numerical error. \
+Compare the previous example with the following one:\
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477515352284*^9, 3.6984775158020353`*^9}, 
+   3.698479677430993*^9, {3.698479809680099*^9, 3.698479809929243*^9}, {
+   3.6984801162426033`*^9, 3.698480123800823*^9}, {3.698483673736618*^9, 
+   3.698483682863151*^9}, {3.698487759770702*^9, 3.698487766880232*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"1", "-", 
+    SqrtBox[
+     RowBox[{"1", "-", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"-", "40`20"}]]}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698480017468452*^9, 3.698480070419424*^9}, {
+  3.698495303196848*^9, 3.698495315269335*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "2.124177127645794499920681626236097977245`18.39794000867204*^-18", ",", 
+   "18.39794000867204`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.698480048437011*^9, 3.698480070936232*^9}, 
+   3.6984873773419333`*^9, 3.6984953166401*^9, 3.698495555438381*^9, 
+   3.6985134241046553`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Representation of arbitrary-precision numbers", "Subchapter",
+ CellChangeTimes->{{3.698474948920937*^9, 3.69847496258189*^9}, {
+  3.698475364788727*^9, 3.698475365867139*^9}, {3.698475509856196*^9, 
+  3.698475513916541*^9}, {3.698476159599864*^9, 3.698476162658697*^9}, {
+  3.6984794900363693`*^9, 3.698479491351273*^9}, {3.6984840295100594`*^9, 
+  3.698484031576767*^9}, {3.698486031993248*^9, 3.6984860482257023`*^9}, {
+  3.6984861758567038`*^9, 3.698486194057806*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"exacts", "=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1000000", "+", 
+      RowBox[{"Range", "[", 
+       RowBox[{"1", ",", "9"}], "]"}]}], ")"}], "/", "1000000"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"N", "[", 
+  RowBox[{"exacts", ",", "8"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.6984862267182217`*^9, 3.698486258949308*^9}, {
+  3.698486857749161*^9, 3.6984868754097*^9}, {3.6984953485720167`*^9, 
+  3.6984953519241657`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.000001`8.", ",", "1.000002`8.", ",", "1.000003`8.", ",", "1.000004`8.", 
+   ",", "1.000005`8.", ",", "1.000006`8.", ",", "1.000007`8.", ",", 
+   "1.000008`8.", ",", "1.000009`8."}], "}"}]], "Output",
+ CellChangeTimes->{{3.6984862134490147`*^9, 3.698486259566844*^9}, {
+   3.6984868581378937`*^9, 3.6984868760840197`*^9}, 3.698487377375308*^9, {
+   3.698495350290152*^9, 3.698495352809948*^9}, 3.6984955555041018`*^9, 
+   3.698513383613021*^9, 3.698513424156302*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"numerics", "=", 
+  RowBox[{"N", "[", 
+   RowBox[{"exacts", ",", "6"}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"RealDigits", "[", 
+  RowBox[{"numerics", ",", "10", ",", "8"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.69849546980912*^9, 3.698495470223164*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1.000001`6.", ",", "1.000002`6.", ",", "1.000003`6.", ",", "1.000004`6.", 
+   ",", "1.000005`6.", ",", "1.000006`6.", ",", "1.000007`6.", ",", 
+   "1.000008`6.", ",", "1.000009`6."}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.698495357372908*^9, {3.698495449660138*^9, 3.698495489700506*^9}, 
+   3.698495555570709*^9, 3.698513386251513*^9, 3.6985134242220297`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.698495357372908*^9, {3.698495449660138*^9, 3.698495489700506*^9}, 
+   3.698495555570709*^9, 3.698513386251513*^9, 3.6985134242284937`*^9}]
+}, Open  ]],
+
+Cell["\<\
+Even though the numbers above have the same significant digits, internally, \
+they are represented differently.\
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477515352284*^9, 3.6984775158020353`*^9}, 
+   3.698479677430993*^9, {3.698479809680099*^9, 3.698479809929243*^9}, {
+   3.698480130854713*^9, 3.6984801475149603`*^9}, {3.698486312353972*^9, 
+   3.698486357915607*^9}, {3.6984865050961857`*^9, 3.6984865061635942`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullForm", "/@", "numerics"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[
+    StyleBox["1.000001`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000002`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000003`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000004`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000005`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000006`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000007`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000008`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm], ",", 
+   TagBox[
+    StyleBox["1.000009`6.",
+     ShowSpecialCharacters->False,
+     ShowStringCharacters->True,
+     NumberMarks->True],
+    FullForm]}], "}"}]], "Output",
+ CellChangeTimes->{3.698486376964563*^9, 3.698487377425057*^9, 
+  3.698495390856127*^9, 3.698495555636684*^9, 3.698513391784884*^9, 
+  3.698513424290429*^9}]
+}, Open  ]],
+
+Cell["They could even have different significant digits in binary.", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477515352284*^9, 3.6984775158020353`*^9}, 
+   3.698479677430993*^9, {3.698479809680099*^9, 3.698479809929243*^9}, {
+   3.698480130854713*^9, 3.6984801475149603`*^9}, {3.698486312353972*^9, 
+   3.698486427317255*^9}, {3.698495396358148*^9, 3.698495413125701*^9}, {
+   3.69851367382902*^9, 3.69851367435572*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RealDigits", "[", 
+  RowBox[{"numerics", ",", "2", ",", "22"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6984864356210203`*^9, 3.698486444766445*^9}, {
+  3.698513396701865*^9, 3.6985133969142933`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "1", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "0", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", 
+       "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", "1", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", "1"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.698486435975688*^9, 3.6984864453157797`*^9}, 
+   3.698487377458489*^9, 3.6984954043854856`*^9, 3.698495555686103*^9, {
+   3.69851339432381*^9, 3.698513424356879*^9}}]
+}, Open  ]],
+
+Cell["\<\
+The significance of the fact that they are indeed different numbers even \
+though they have the same significant (decimal) digits should not be \
+underestimated, as the following example illustrates.\
+\>", "Text",
+ CellChangeTimes->{{3.698486480248564*^9, 3.6984865477336187`*^9}, {
+   3.698486935137282*^9, 3.698486960662943*^9}, 3.6984954190236597`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f2", "[", "x_", "]"}], ":=", 
+   RowBox[{"1", "/", 
+    RowBox[{"(", 
+     RowBox[{"x", "-", 
+      RowBox[{"(", 
+       RowBox[{"1000005", "/", "1000000"}], ")"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"f2", "/@", "numerics"}], "\[IndentingNewLine]", 
+ RowBox[{"Precision", "/@", "%"}]}], "Input",
+ CellChangeTimes->{{3.698486563652649*^9, 3.698486563877276*^9}, {
+  3.698486691775612*^9, 3.6984866920783*^9}, {3.698486740667923*^9, 
+  3.6984867408590927`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Power", "::", "infy"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Infinite expression \[NoBreak]\\!\\(\\*FractionBox[\\\"1\\\
+\", \\\"0``5.999998262825549\\\"]\\)\[NoBreak] encountered. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/infy\\\", \
+ButtonNote -> \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.69848656444477*^9, 3.698486692646473*^9, 3.6984867419481077`*^9, 
+   3.698487377501444*^9, {3.698495453867528*^9, 3.698495481898261*^9}, 
+   3.698495555755053*^9, 3.6985134244226017`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Power", "::", "infy"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Infinite expression \[NoBreak]\\!\\(\\*FractionBox[\\\"1\\\
+\", \\\"0``5.999997828533019\\\"]\\)\[NoBreak] encountered. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/infy\\\", \
+ButtonNote -> \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.69848656444477*^9, 3.698486692646473*^9, 3.6984867419481077`*^9, 
+   3.698487377501444*^9, {3.698495453867528*^9, 3.698495481898261*^9}, 
+   3.698495555755053*^9, 3.698513424457773*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Power", "::", "infy"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Infinite expression \[NoBreak]\\!\\(\\*FractionBox[\\\"1\\\
+\", \\\"0``5.999997394240925\\\"]\\)\[NoBreak] encountered. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/infy\\\", \
+ButtonNote -> \\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.69848656444477*^9, 3.698486692646473*^9, 3.6984867419481077`*^9, 
+   3.698487377501444*^9, {3.698495453867528*^9, 3.698495481898261*^9}, 
+   3.698495555755053*^9, 3.698513424498114*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[RowBox[{\\\"Power\\\", \\\"::\\\", \
+\\\"infy\\\"}], \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
+this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.69848656444477*^9, 3.698486692646473*^9, 3.6984867419481077`*^9, 
+   3.698487377501444*^9, {3.698495453867528*^9, 3.698495481898261*^9}, 
+   3.698495555755053*^9, 3.698513424502637*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "250000.`0.6020595570336975"}], ",", 
+   RowBox[{"-", "333333.3333333333333333333`0.477120386131567"}], ",", 
+   RowBox[{"-", "500000.`0.30102869278249156"}], ",", "ComplexInfinity", ",", 
+   "ComplexInfinity", ",", "ComplexInfinity", ",", 
+   "500000.`0.3010269556132482", ",", 
+   "333333.3333333333333333333`0.4771177803777041", ",", 
+   "250000.`0.6020560826952152"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.698486564551355*^9, 3.698486692752554*^9, 3.698486742085894*^9, 
+   3.698487377600429*^9, {3.698495453962531*^9, 3.6984954819781*^9}, 
+   3.69849555586125*^9, 3.698513424507197*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0.6020595570336975`", ",", "0.477120386131567`", ",", 
+   "0.30102869278249156`", ",", "\[Infinity]", ",", "\[Infinity]", ",", 
+   "\[Infinity]", ",", "0.3010269556132482`", ",", "0.4771177803777041`", ",",
+    "0.6020560826952152`"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.698486564551355*^9, 3.698486692752554*^9, 3.698486742085894*^9, 
+   3.698487377600429*^9, {3.698495453962531*^9, 3.6984954819781*^9}, 
+   3.69849555586125*^9, 3.698513424512026*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{"f2", "/@", "exacts"}], "\[IndentingNewLine]", 
+ RowBox[{"Precision", "/@", "%"}]}], "Input",
+ CellChangeTimes->{{3.6984867495444508`*^9, 3.698486750555982*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Power", "::", "infy"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Infinite expression \[NoBreak]\\!\\(\\*FractionBox[\\\"1\\\
+\", \\\"0\\\"]\\)\[NoBreak] encountered. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/infy\\\", ButtonNote -> \
+\\\"Power::infy\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.698486751129148*^9, 3.698487377645949*^9, 
+  3.698495555921344*^9, 3.6985134245748568`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "250000"}], ",", 
+   RowBox[{"-", 
+    FractionBox["1000000", "3"]}], ",", 
+   RowBox[{"-", "500000"}], ",", 
+   RowBox[{"-", "1000000"}], ",", "ComplexInfinity", ",", "1000000", ",", 
+   "500000", ",", 
+   FractionBox["1000000", "3"], ",", "250000"}], "}"}]], "Output",
+ CellChangeTimes->{3.698486751135508*^9, 3.698487377651672*^9, 
+  3.6984955559421043`*^9, 3.698513424582939*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "\[Infinity]", ",", "\[Infinity]", ",", "\[Infinity]", ",", "\[Infinity]", 
+   ",", "\[Infinity]", ",", "\[Infinity]", ",", "\[Infinity]", ",", 
+   "\[Infinity]", ",", "\[Infinity]"}], "}"}]], "Output",
+ CellChangeTimes->{3.698486751135508*^9, 3.698487377651672*^9, 
+  3.6984955559421043`*^9, 3.6985134245881767`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Careful with comparisons with exact numbers", "Subchapter",
+ CellChangeTimes->{{3.698474948920937*^9, 3.69847496258189*^9}, {
+  3.698475364788727*^9, 3.698475365867139*^9}, {3.698475509856196*^9, 
+  3.698475513916541*^9}, {3.698476159599864*^9, 3.698476162658697*^9}, {
+  3.6984794900363693`*^9, 3.698479491351273*^9}, {3.6984840295100594`*^9, 
+  3.698484031576767*^9}, {3.698486031993248*^9, 3.6984860482257023`*^9}}],
+
+Cell["\<\
+In testing whether two numbers are \"equal\", the Wolfram Language \
+effectively finds their difference, and tests whether the result is \
+\"consistent with zero\" to the precision given.\
+\>", "Text",
+ CellChangeTimes->{{3.698496119223097*^9, 3.6984961303192997`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"3", "\[Equal]", "3.000000000"}]], "Input",
+ CellChangeTimes->{{3.698496139742177*^9, 3.698496149280427*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.698496146834999*^9, 3.698513424638466*^9}]
+}, Open  ]],
+
+Cell["\<\
+This way of operating seems logical, but it can have counterintuitive \
+consequences.\
+\>", "Text",
+ CellChangeTimes->{{3.698496119223097*^9, 3.6984961303192997`*^9}, {
+  3.6984961616651278`*^9, 3.698496183614828*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1000015", "/", "1000000"}], ">", 
+  RowBox[{"100001", "/", "100000"}]}]], "Input",
+ CellChangeTimes->{{3.698486119729678*^9, 3.698486119852583*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.698486120476066*^9, 3.6984873776913443`*^9, 
+  3.69849555604434*^9, 3.698513424688531*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1000015", "/", "1000000"}], ">", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"100001", "/", "100000"}], ",", "3"}], "]"}]}]], "Input",
+ CellChangeTimes->{3.6984860967907143`*^9}],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.698486098051957*^9, 3.6984873777246723`*^9, 
+  3.698495556105562*^9, 3.6985134247461767`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1000015", "/", "1000000"}], "\[Equal]", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    RowBox[{"100001", "/", "100000"}], ",", "3"}], "]"}]}]], "Input"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.698486104983337*^9, 3.698487377758362*^9, 
+  3.6984955561715927`*^9, 3.698513424793928*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["N[ ]", "Chapter",
+ CellChangeTimes->{{3.698475369892932*^9, 3.6984753775792227`*^9}, {
+  3.698476809635079*^9, 3.698476810432674*^9}, {3.698496204873686*^9, 
+  3.698496209518619*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Basics", "Subchapter",
+ CellChangeTimes->{{3.698475369892932*^9, 3.6984753775792227`*^9}, {
+   3.698479282591641*^9, 3.698479283962737*^9}, 3.6984862831718388`*^9}],
+
+Cell["\<\
+N[expr] gives a machine\[Hyphen]precision number (assuming its magnitude is \
+between $MinMachineNumber and $MaxMachineNumber). \
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477515352284*^9, 3.6984775158020353`*^9}, {
+   3.69849622153771*^9, 3.6984962262334747`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{"Sqrt", "[", "2", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+  3.6984753130765533`*^9, 3.698475337229949*^9}, {3.698476049475884*^9, 
+  3.6984760605667458`*^9}, {3.6984769232155857`*^9, 3.698476945952841*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1.4142135623730951`", ",", "MachinePrecision"}], "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.6984760611460133`*^9, 
+   3.6984769471114597`*^9, 3.6984873777842693`*^9, 3.6984955562354507`*^9, 
+   3.698513424856135*^9}]
+}, Open  ]],
+
+Cell["\<\
+N[expr,n] attempts to give an arbitrary-precision number with n\[Hyphen]digit \
+precision.\
+\>", "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, {
+   3.69847685039356*^9, 3.6984769035833893`*^9}, {3.698477433823573*^9, 
+   3.698477473951723*^9}, {3.698477523339645*^9, 3.698477524104412*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"Sqrt", "[", "2", "]"}], ",", "10"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+  3.6984753130765533`*^9, 3.698475337229949*^9}, {3.698476049475884*^9, 
+  3.6984760605667458`*^9}, {3.6984769232155857`*^9, 3.698476945952841*^9}, {
+  3.698477503630457*^9, 3.6984775039785433`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1.41421356237309504880168872420969807857`10.", ",", "10.`"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.6984760611460133`*^9, 
+   3.6984769471114597`*^9, 3.698477504542389*^9, 3.698487377825136*^9, 
+   3.6984955563025846`*^9, 3.698513424923802*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["MachinePrecision vs $MachinePrecision", "Subchapter",
+ CellChangeTimes->{{3.698475369892932*^9, 3.6984753775792227`*^9}, {
+  3.69847929601406*^9, 3.6984792991732607`*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{"N", "[", 
+   RowBox[{
+    StyleBox["expr", "TI"], ",", "MachinePrecision"}], "]"}]], 
+  "InlineFormula"],
+ " is, in my opinion, a very misleading notation.\n",
+ Cell[BoxData[
+  RowBox[{"N", "[", 
+   RowBox[{
+    StyleBox["expr", "TI"], ",", "MachinePrecision"}], "]"}]], 
+  "InlineFormula"],
+ " is equivalent to N[expr], so it gives a machine\[Hyphen]precision number."
+}], "Text",
+ CellChangeTimes->{{3.698475606062078*^9, 3.698475630479925*^9}, {
+   3.6984758357919703`*^9, 3.698475845797044*^9}, 3.698476034524733*^9, 
+   3.6984760884686527`*^9, {3.698476954155652*^9, 3.6984769779826603`*^9}, {
+   3.6984771076055937`*^9, 3.6984771159514103`*^9}, {3.698477531732995*^9, 
+   3.698477597477901*^9}, {3.698477641625327*^9, 3.698477660406782*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", " ", 
+   RowBox[{"N", "[", 
+    RowBox[{"\[Pi]", "-", 
+     FractionBox["80143857", "25510582"]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698475045443728*^9, 3.698475070407454*^9}, {
+   3.6984753130765533`*^9, 3.698475337229949*^9}, {3.698476049475884*^9, 
+   3.6984760605667458`*^9}, 3.698476099729951*^9, {3.69847699062694*^9, 
+   3.698477016961975*^9}, 3.698477068501629*^9, {3.6984776071435423`*^9, 
+   3.69847761363343*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"4.440892098500626`*^-16", ",", "MachinePrecision"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.69847503625555*^9, 3.698475053940539*^9}, {
+   3.698475287286512*^9, 3.698475337979784*^9}, 3.6984760611460133`*^9, 
+   3.6984761023034697`*^9, {3.698477010680408*^9, 3.6984770176107187`*^9}, 
+   3.698477070820229*^9, 3.698477614305373*^9, 3.698487377858971*^9, 
+   3.6984955563695602`*^9, 3.698513424989334*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", " ", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"\[Pi]", "-", 
+      FractionBox["80143857", "25510582"]}], ",", "MachinePrecision"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698477083584751*^9, 3.698477088881362*^9}, {
+  3.6984776189214897`*^9, 3.698477629001771*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"4.440892098500626`*^-16", ",", "MachinePrecision"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{
+  3.698477089450383*^9, {3.69847762478767*^9, 3.698477629408505*^9}, 
+   3.698487377908766*^9, 3.698495556456348*^9, 3.698513425039853*^9}]
+}, Open  ]],
+
+Cell["\<\
+In the examples above, none of the digits in the machine-precision result are \
+correct, due to the subtraction of two numbers that are nearly identical when \
+represented in machine precision. Recall that MachinePrecision (which \
+indicates that the number is a floating-point number) is smaller than any \
+explicit precision.\
+\>", "Text",
+ CellChangeTimes->{{3.698477138461252*^9, 3.6984771680841503`*^9}, {
+   3.698477662379631*^9, 3.698477685734132*^9}, {3.69848714244375*^9, 
+   3.698487146660707*^9}, 3.698487233535776*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"l", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{"\[Pi]", "-", 
+       FractionBox["80143857", "25510582"]}], ",", "1"}], "]"}], ",", 
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{"\[Pi]", "-", 
+       FractionBox["80143857", "25510582"]}], ",", "2"}], "]"}], ",", 
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{"\[Pi]", "-", 
+       FractionBox["80143857", "25510582"]}], ",", "3"}], "]"}], ",", 
+    RowBox[{"N", "[", 
+     RowBox[{
+      RowBox[{"\[Pi]", "-", 
+       FractionBox["80143857", "25510582"]}], ",", "4"}], "]"}]}], 
+   "}"}]}]], "Input",
+ CellChangeTimes->{{3.6984770256817017`*^9, 3.698477036503306*^9}, {
+  3.698477123479485*^9, 3.698477126223502*^9}, {3.698477179346813*^9, 
+  3.698477226404887*^9}, {3.698487247102689*^9, 3.698487271356833*^9}, {
+  3.698487350537203*^9, 3.698487351751008*^9}, {3.698496286241014*^9, 
+  3.698496293581581*^9}, {3.698513634702787*^9, 3.698513647018546*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "5.7908701643756732744265`1.*^-16", ",", "5.7908701643756732744265`2.*^-16",
+    ",", "5.7908701643756732744265`3.*^-16", ",", 
+   "5.7908701643756732744265`4.*^-16"}], "}"}]], "Output",
+ CellChangeTimes->{{3.698477026167864*^9, 3.698477032612664*^9}, 
+   3.698477126661467*^9, 3.698477179728894*^9, 3.6984772269079933`*^9, {
+   3.698487257715646*^9, 3.698487271793954*^9}, 3.698487377958255*^9, 
+   3.698495556556999*^9, 3.698496294653582*^9, 3.698513425090889*^9, 
+   3.698513648133251*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Precision", "/@", "l"}]], "Input",
+ CellChangeTimes->{3.698513652869488*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1.`", ",", "2.`", ",", "3.`", ",", "4.`"}], "}"}]], "Output",
+ CellChangeTimes->{3.698513653357386*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RealDigits", "[", 
+  RowBox[{"l", ",", "10", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.698513656007371*^9, 3.6985136562884693`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "6", ",", "Indeterminate", ",", "Indeterminate", ",", "Indeterminate", 
+       ",", "Indeterminate", ",", "Indeterminate"}], "}"}], ",", 
+     RowBox[{"-", "15"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "5", ",", "8", ",", "Indeterminate", ",", "Indeterminate", ",", 
+       "Indeterminate", ",", "Indeterminate"}], "}"}], ",", 
+     RowBox[{"-", "15"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "5", ",", "7", ",", "9", ",", "Indeterminate", ",", "Indeterminate", 
+       ",", "Indeterminate"}], "}"}], ",", 
+     RowBox[{"-", "15"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "5", ",", "7", ",", "9", ",", "1", ",", "Indeterminate", ",", 
+       "Indeterminate"}], "}"}], ",", 
+     RowBox[{"-", "15"}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.698477026167864*^9, 3.698477032612664*^9}, 
+   3.698477126661467*^9, 3.698477179728894*^9, 3.6984772269079933`*^9, {
+   3.698487257715646*^9, 3.698487271801433*^9}, 3.69848737799229*^9, 
+   3.698495556654937*^9, 3.698513425156044*^9, 3.6985136567592993`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "MachinePrecision indicates that the number is a floating-point number;\n\
+$MachinePrecision is a very different thing: it is just a shortcut for a \
+certain number, i.e. ",
+ Cell[BoxData[
+  RowBox[{"53", 
+   RowBox[{"Log", "[", 
+    RowBox[{"10", ",", "2"}], "]"}]}]]],
+ ", which is roughly 15.9546."
+}], "Text",
+ CellChangeTimes->{{3.698477138461252*^9, 3.6984771680841503`*^9}, {
+  3.6984772392644672`*^9, 3.698477306314636*^9}, {3.698477385404134*^9, 
+  3.6984773908698673`*^9}, {3.698477716559655*^9, 3.6984777170206127`*^9}, {
+  3.698496321485895*^9, 3.698496346749324*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["$MachinePrecision"], "Input",
+ CellChangeTimes->{{3.698477300021192*^9, 3.6984773000229197`*^9}}],
+
+Cell[BoxData["15.954589770191003`"], "Output",
+ CellChangeTimes->{3.698477301362297*^9, 3.698487378025943*^9, 
+  3.698495556756764*^9, 3.698513425206324*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"\[Pi]", "-", 
+      FractionBox["80143857", "25510582"]}], ",", "$MachinePrecision"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.6984770256817017`*^9, 3.698477036503306*^9}, {
+  3.698477123479485*^9, 3.698477126223502*^9}, {3.698477742155387*^9, 
+  3.6984777516828423`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "5.790870164375673274426490306701214964756452`15.954589770191003*^-16", ",",
+    "15.954589770191003`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.698477026167864*^9, 3.698477032612664*^9}, 
+   3.698477126661467*^9, 3.698477752263859*^9, 3.6984873780595617`*^9, 
+   3.698495556850775*^9, 3.698513425272604*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"\[Pi]", "-", 
+      FractionBox["80143857", "25510582"]}], ",", 
+     RowBox[{"53", 
+      RowBox[{"Log", "[", 
+       RowBox[{"10", ",", "2"}], "]"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{{3.698479334207513*^9, 3.698479341349881*^9}, {
+  3.6984963797037067`*^9, 3.698496383699614*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "5.790870164375673274426490306701214964756452`15.954589770191003*^-16", ",",
+    "15.954589770191003`"}], "}"}]], "Output",
+ CellChangeTimes->{3.698479341887046*^9, 3.698487378109487*^9, 
+  3.6984955569176598`*^9, 3.69849638464017*^9, 3.698513425339756*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     RowBox[{"\[Pi]", "-", 
+      FractionBox["80143857", "25510582"]}], ",", "MachinePrecision"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"{", 
+  RowBox[{"n", ",", 
+   RowBox[{"Precision", "[", "n", "]"}]}], "}"}]}], "Input",
+ CellChangeTimes->{
+  3.698477315630218*^9, {3.6984777434713*^9, 3.698477755502343*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"4.440892098500626`*^-16", ",", "MachinePrecision"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.6984773159776278`*^9, 3.698477756043314*^9, 
+  3.698487378159354*^9, 3.69849555700593*^9, 3.69851342540611*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["N applied on functions", "Subchapter",
+ CellChangeTimes->{{3.698475369892932*^9, 3.6984753775792227`*^9}, {
+  3.69847929601406*^9, 3.6984792991732607`*^9}, {3.698479353883399*^9, 
+  3.6984793635458097`*^9}}],
+
+Cell["\<\
+N converts each successive argument of any function it encounters to \
+numerical form, unless the head of the function has an attribute such as \
+NHoldAll.\
+\>", "Text",
+ CellChangeTimes->{{3.6984788053290358`*^9, 3.698478805330442*^9}, 
+   3.698478847125132*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"f", "[", 
+   RowBox[{
+    RowBox[{"2", "/", "3"}], ",", "Pi"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.698479405082615*^9, 3.6984794050841627`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"f", "[", 
+  RowBox[{"0.6666666666666666`", ",", "3.141592653589793`"}], "]"}]], "Output",\
+
+ CellChangeTimes->{3.698479406664962*^9, 3.698487378202362*^9, 
+  3.69849555710322*^9, 3.698513425472598*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"f", "[", 
+    RowBox[{
+     RowBox[{"2", "/", "3"}], ",", "Pi"}], "]"}], ",", "30"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.698479416355362*^9, 3.6984794301694117`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"f", "[", 
+  RowBox[{
+  "0.6666666666666666666666666666666666666666666666666666666667`30.", ",", 
+   "3.1415926535897932384626433832795028841971693993751058209749`30."}], 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.698479419391711*^9, 3.6984794306266117`*^9}, 
+   3.698487378242894*^9, 3.698495557183036*^9, 3.698513425524316*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{922, 822},
+WindowMargins->{{52, Automatic}, {Automatic, 124}},
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 9, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 105, 1, 92, "Title"],
+Cell[CellGroupData[{
+Cell[710, 27, 172, 2, 65, "Chapter"],
+Cell[885, 31, 23956, 398, 309, "Text"],
+Cell[24844, 431, 1110, 19, 201, "Text"],
+Cell[CellGroupData[{
+Cell[25979, 454, 253, 3, 62, "Subchapter"],
+Cell[26235, 459, 1268, 22, 163, "Text"],
+Cell[27506, 483, 291, 4, 30, "Text"],
+Cell[CellGroupData[{
+Cell[27822, 491, 348, 8, 46, "Input"],
+Cell[28173, 501, 302, 5, 28, "Output"]
+}, Open  ]],
+Cell[28490, 509, 396, 10, 30, "Text"],
+Cell[CellGroupData[{
+Cell[28911, 523, 368, 8, 46, "Input"],
+Cell[29282, 533, 314, 6, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29645, 545, 242, 3, 62, "Subchapter"],
+Cell[CellGroupData[{
+Cell[29912, 552, 130, 1, 44, "Subsection"],
+Cell[30045, 555, 278, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[30348, 562, 277, 7, 46, "Input"],
+Cell[30628, 571, 282, 7, 37, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30959, 584, 228, 4, 44, "Subsection"],
+Cell[31190, 590, 258, 5, 30, "Text"],
+Cell[CellGroupData[{
+Cell[31473, 599, 247, 6, 46, "Input"],
+Cell[31723, 607, 170, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31930, 616, 308, 8, 46, "Input"],
+Cell[32241, 626, 426, 8, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32716, 640, 249, 4, 44, "Subsection"],
+Cell[32968, 646, 409, 7, 87, "Text"],
+Cell[CellGroupData[{
+Cell[33402, 657, 247, 6, 46, "Input"],
+Cell[33652, 665, 181, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33870, 674, 330, 8, 46, "Input"],
+Cell[34203, 684, 313, 5, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34565, 695, 247, 4, 44, "Subsection"],
+Cell[34815, 701, 219, 5, 30, "Text"],
+Cell[CellGroupData[{
+Cell[35059, 710, 315, 9, 46, "Input"],
+Cell[35377, 721, 335, 8, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35749, 734, 159, 3, 28, "Input"],
+Cell[35911, 739, 180, 2, 28, "Output"]
+}, Open  ]],
+Cell[36106, 744, 302, 6, 30, "Text"],
+Cell[CellGroupData[{
+Cell[36433, 754, 271, 7, 28, "Input"],
+Cell[36707, 763, 260, 5, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37004, 773, 188, 4, 28, "Input"],
+Cell[37195, 779, 209, 4, 28, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37465, 790, 142, 1, 62, "Subchapter"],
+Cell[37610, 793, 285, 4, 30, "Text"],
+Cell[CellGroupData[{
+Cell[37920, 801, 377, 9, 46, "Input"],
+Cell[38300, 812, 324, 6, 28, "Output"]
+}, Open  ]],
+Cell[38639, 821, 961, 21, 68, "Text"],
+Cell[CellGroupData[{
+Cell[39625, 846, 446, 11, 52, "Input"],
+Cell[40074, 859, 345, 6, 28, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40480, 872, 203, 2, 65, "Chapter"],
+Cell[CellGroupData[{
+Cell[40708, 878, 341, 5, 62, "Subchapter"],
+Cell[41052, 885, 523, 8, 68, "Text"],
+Cell[CellGroupData[{
+Cell[41600, 897, 322, 8, 46, "Input"],
+Cell[41925, 907, 279, 6, 35, "Output"]
+}, Open  ]],
+Cell[42219, 916, 800, 13, 87, "Text"],
+Cell[CellGroupData[{
+Cell[43044, 933, 483, 14, 46, "Input"],
+Cell[43530, 949, 275, 7, 35, "Output"]
+}, Open  ]],
+Cell[43820, 959, 640, 15, 41, "Text"],
+Cell[CellGroupData[{
+Cell[44485, 978, 545, 16, 63, "Input"],
+Cell[45033, 996, 324, 8, 35, "Output"]
+}, Open  ]],
+Cell[45372, 1007, 742, 11, 49, "Text"],
+Cell[CellGroupData[{
+Cell[46139, 1022, 427, 12, 58, "Input"],
+Cell[46569, 1036, 324, 7, 35, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46942, 1049, 477, 6, 62, "Subchapter"],
+Cell[CellGroupData[{
+Cell[47444, 1059, 479, 13, 46, "Input"],
+Cell[47926, 1074, 510, 9, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48473, 1088, 285, 6, 46, "Input"],
+Cell[48761, 1096, 407, 8, 28, "Output"],
+Cell[49171, 1106, 2118, 60, 165, "Output"]
+}, Open  ]],
+Cell[51304, 1169, 648, 10, 30, "Text"],
+Cell[CellGroupData[{
+Cell[51977, 1183, 64, 1, 28, "Input"],
+Cell[52044, 1186, 1588, 59, 46, "Output"]
+}, Open  ]],
+Cell[53647, 1248, 633, 8, 30, "Text"],
+Cell[CellGroupData[{
+Cell[54305, 1260, 223, 4, 28, "Input"],
+Cell[54531, 1266, 3548, 78, 165, "Output"]
+}, Open  ]],
+Cell[58094, 1347, 365, 6, 49, "Text"],
+Cell[CellGroupData[{
+Cell[58484, 1357, 528, 14, 63, "Input"],
+Cell[59015, 1373, 665, 13, 43, "Message"],
+Cell[59683, 1388, 663, 13, 43, "Message"],
+Cell[60349, 1403, 663, 13, 43, "Message"],
+Cell[61015, 1418, 728, 15, 24, "Message"],
+Cell[61746, 1435, 652, 13, 57, "Output"],
+Cell[62401, 1450, 502, 10, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62940, 1465, 185, 3, 46, "Input"],
+Cell[63128, 1470, 547, 11, 41, "Message"],
+Cell[63678, 1483, 439, 11, 48, "Output"],
+Cell[64120, 1496, 359, 7, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[64528, 1509, 424, 5, 62, "Subchapter"],
+Cell[64955, 1516, 279, 5, 49, "Text"],
+Cell[CellGroupData[{
+Cell[65259, 1525, 132, 2, 28, "Input"],
+Cell[65394, 1529, 95, 1, 28, "Output"]
+}, Open  ]],
+Cell[65504, 1533, 228, 5, 30, "Text"],
+Cell[CellGroupData[{
+Cell[65757, 1542, 183, 4, 28, "Input"],
+Cell[65943, 1548, 143, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66123, 1555, 215, 6, 28, "Input"],
+Cell[66341, 1563, 147, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66525, 1570, 178, 5, 28, "Input"],
+Cell[66706, 1577, 144, 2, 28, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66911, 1586, 189, 3, 65, "Chapter"],
+Cell[CellGroupData[{
+Cell[67125, 1593, 170, 2, 62, "Subchapter"],
+Cell[67298, 1597, 492, 8, 49, "Text"],
+Cell[CellGroupData[{
+Cell[67815, 1609, 457, 10, 46, "Input"],
+Cell[68275, 1621, 347, 6, 28, "Output"]
+}, Open  ]],
+Cell[68637, 1630, 401, 7, 30, "Text"],
+Cell[CellGroupData[{
+Cell[69063, 1641, 538, 13, 46, "Input"],
+Cell[69604, 1656, 383, 7, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70036, 1669, 177, 2, 62, "Subchapter"],
+Cell[70216, 1673, 789, 18, 55, "Text"],
+Cell[CellGroupData[{
+Cell[71030, 1695, 597, 14, 69, "Input"],
+Cell[71630, 1711, 448, 8, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[72115, 1724, 444, 12, 69, "Input"],
+Cell[72562, 1738, 273, 6, 35, "Output"]
+}, Open  ]],
+Cell[72850, 1747, 540, 9, 68, "Text"],
+Cell[CellGroupData[{
+Cell[73415, 1760, 984, 25, 49, "Input"],
+Cell[74402, 1787, 534, 10, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[74973, 1802, 100, 2, 28, "Input"],
+Cell[75076, 1806, 143, 3, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75256, 1814, 165, 3, 28, "Input"],
+Cell[75424, 1819, 1258, 34, 80, "Output"]
+}, Open  ]],
+Cell[76697, 1856, 597, 13, 68, "Text"],
+Cell[CellGroupData[{
+Cell[77319, 1873, 111, 1, 28, "Input"],
+Cell[77433, 1876, 157, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[77627, 1883, 491, 13, 69, "Input"],
+Cell[78121, 1898, 351, 7, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[78509, 1910, 507, 15, 69, "Input"],
+Cell[79019, 1927, 299, 6, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[79355, 1938, 411, 12, 69, "Input"],
+Cell[79769, 1952, 246, 5, 35, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80064, 1963, 213, 3, 62, "Subchapter"],
+Cell[80280, 1968, 273, 6, 49, "Text"],
+Cell[CellGroupData[{
+Cell[80578, 1978, 200, 5, 28, "Input"],
+Cell[80781, 1985, 225, 5, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81043, 1995, 229, 7, 28, "Input"],
+Cell[81275, 2004, 352, 7, 28, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
